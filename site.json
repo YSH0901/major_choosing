@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 2,
+  "title": "학과·선택과목 탐색기",
+  "curriculumLabel": "2022 개정 교육과정",
+  "description": "과목명·교과·선택 유형을 검색하고, 관심 학과의 추천 과목과 진로 정보를 확인해 보세요.",
+  "footer": "교육과정 탐색용 개인 프로젝트 · 학교와 학년도에 따라 학점, 평가 방식, 개설 여부가 달라질 수 있습니다.",
+  "favoriteStorageKey": "major-subject-explorer:favorites:v1",
+  "subjectTypeOrder": [
+    "일반",
+    "진로",
+    "융합",
+    "공통대체"
+  ],
+  "departmentCategoryOrder": [
+    "인문",
+    "사회",
+    "자연",
+    "공학",
+    "교육",
+    "의약",
+    "예체능"
+  ],
+  "subjectGroupOrder": [
+    "국어",
+    "수학",
+    "영어",
+    "사회",
+    "과학",
+    "체육",
+    "예술",
+    "기술·가정",
+    "정보",
+    "제2외국어",
+    "한문",
+    "교양"
+  ]
+}

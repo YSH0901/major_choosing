@@ -1,0 +1,93 @@
+[
+  {
+    "id": "physical-education-001",
+    "name": "체육1",
+    "group": "체육",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "physical-education-002",
+    "name": "체육2",
+    "group": "체육",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "physical-education-003",
+    "name": "운동과 건강",
+    "group": "체육",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "physical-education-004",
+    "name": "스포츠 문화",
+    "group": "체육",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "physical-education-005",
+    "name": "스포츠 과학",
+    "group": "체육",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "physical-education-006",
+    "name": "스포츠 생활1",
+    "group": "체육",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "physical-education-007",
+    "name": "스포츠 생활2",
+    "group": "체육",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "physical-education-008",
+    "name": "스포츠 개론",
+    "group": "체육",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "physical-education-009",
+    "name": "기초 체육 전공 실기",
+    "group": "체육",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "physical-education-010",
+    "name": "심화 체육 전공 실기",
+    "group": "체육",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "physical-education-011",
+    "name": "스포츠 경기 체력",
+    "group": "체육",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "physical-education-012",
+    "name": "스포츠 경기 분석",
+    "group": "체육",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "physical-education-013",
+    "name": "스포츠 교육",
+    "group": "체육",
+    "type": "융합",
+    "origin": "official"
+  }
+]

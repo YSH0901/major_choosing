@@ -1,0 +1,171 @@
+[
+  {
+    "id": "english-001",
+    "name": "영어Ⅰ",
+    "group": "영어",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "english-002",
+    "name": "영어Ⅱ",
+    "group": "영어",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "english-003",
+    "name": "영어 독해와 작문",
+    "group": "영어",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "english-004",
+    "name": "영미 문학 읽기",
+    "group": "영어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "english-005",
+    "name": "영어 발표와 토론",
+    "group": "영어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "english-006",
+    "name": "심화 영어",
+    "group": "영어",
+    "type": "진로",
+    "origin": "official",
+    "details": {
+      "credits": "4±1학점",
+      "assessment": "성취도(A~E)+5등급 상대평가",
+      "description": "영어Ⅰ·Ⅱ와 연계된 심화 과목으로 일상생활에 필요한 의사소통 능력을 심화하고 기초 학문 분야를 포함한 다양한 주제의 영어 이해와 표현 능력을 기르는 과목이다.",
+      "prerequisite": "일반 선택 영어Ⅰ·영어Ⅱ를 이수한 후 선택할 것을 권장.",
+      "relatedDepartmentNames": [
+        "영문학과",
+        "영어통번역과",
+        "영어교육과",
+        "인문계열",
+        "상경계열",
+        "공학계열",
+        "자연계열",
+        "의약학계열"
+      ],
+      "relatedSubjectNames": [
+        "영어Ⅰ",
+        "영어Ⅱ",
+        "영어 독해와 작문",
+        "영미 문학 읽기",
+        "영어 발표와 토론",
+        "심화 영어 독해와 작문",
+        "직무 영어",
+        "실생활 영어 회화",
+        "미디어 영어",
+        "세계 문화와 영어",
+        "심화 영어 회화Ⅰ",
+        "심화 영어 회화Ⅱ"
+      ],
+      "sourceUrl": "https://hakjum.school/subjects/심화-영어/",
+      "faq": [
+        "영어 교과의 진로선택 과목으로 기준 4±1학점입니다.",
+        "영어Ⅰ·영어Ⅱ를 이수한 후 선택할 것을 권장합니다.",
+        "인문·상경·공학·자연·의약학 등 폭넓은 계열과 연결됩니다."
+      ]
+    }
+  },
+  {
+    "id": "english-007",
+    "name": "심화 영어 독해와 작문",
+    "group": "영어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "english-008",
+    "name": "직무 영어",
+    "group": "영어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "english-009",
+    "name": "실생활 영어 회화",
+    "group": "영어",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "english-010",
+    "name": "미디어 영어",
+    "group": "영어",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "english-011",
+    "name": "세계 문화와 영어",
+    "group": "영어",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "english-012",
+    "name": "심화 영어 회화Ⅰ",
+    "group": "영어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "english-013",
+    "name": "심화 영어 회화Ⅱ",
+    "group": "영어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "english-014",
+    "name": "심화 영어Ⅰ",
+    "group": "영어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "english-015",
+    "name": "심화 영어Ⅱ",
+    "group": "영어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "english-016",
+    "name": "심화 영어 독해Ⅰ",
+    "group": "영어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "english-017",
+    "name": "심화 영어 독해Ⅱ",
+    "group": "영어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "english-018",
+    "name": "심화 영어 작문Ⅰ",
+    "group": "영어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "english-019",
+    "name": "심화 영어 작문Ⅱ",
+    "group": "영어",
+    "type": "진로",
+    "origin": "official"
+  }
+]

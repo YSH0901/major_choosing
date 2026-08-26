@@ -1,0 +1,72 @@
+[
+  {
+    "id": "liberal-arts-001",
+    "name": "진로와 직업",
+    "group": "교양",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "liberal-arts-002",
+    "name": "생태와 환경",
+    "group": "교양",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "liberal-arts-003",
+    "name": "인간과 철학",
+    "group": "교양",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "liberal-arts-004",
+    "name": "논리와 사고",
+    "group": "교양",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "liberal-arts-005",
+    "name": "인간과 심리",
+    "group": "교양",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "liberal-arts-006",
+    "name": "교육의 이해",
+    "group": "교양",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "liberal-arts-007",
+    "name": "삶과 종교",
+    "group": "교양",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "liberal-arts-008",
+    "name": "보건",
+    "group": "교양",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "liberal-arts-009",
+    "name": "인간과 경제활동",
+    "group": "교양",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "liberal-arts-010",
+    "name": "논술",
+    "group": "교양",
+    "type": "융합",
+    "origin": "official"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "id": "example-department",
+  "name": "예시학과",
+  "category": "인문",
+  "description": "학과에서 배우는 내용과 교육 목표를 입력하세요.",
+  "electiveGroups": [
+    {
+      "type": "일반 선택",
+      "subjectIds": [
+        "korean-003",
+        "mathematics-003"
+      ]
+    },
+    {
+      "type": "진로 선택",
+      "subjectIds": [
+        "mathematics-006"
+      ],
+      "otherSubjects": [
+        "과목 목록에 없는 별도 추천 과목"
+      ]
+    },
+    {
+      "type": "융합 선택",
+      "subjectIds": []
+    }
+  ],
+  "curriculum": {
+    "basic": [
+      "기초 전공과목"
+    ],
+    "advanced": [
+      "심화 전공과목"
+    ]
+  },
+  "books": [
+    "추천 도서"
+  ],
+  "certificates": [
+    "관련 자격증"
+  ],
+  "tips": [
+    "학교생활 준비 팁"
+  ],
+  "careers": [
+    "졸업 후 진출 분야"
+  ],
+  "universities": [
+    "주요 개설 대학"
+  ]
+}

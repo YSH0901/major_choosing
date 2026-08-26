@@ -1,0 +1,163 @@
+[
+  {
+    "id": "second-foreign-language-001",
+    "name": "독일어",
+    "group": "제2외국어",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-002",
+    "name": "독일어 회화",
+    "group": "제2외국어",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-003",
+    "name": "심화 독일어",
+    "group": "제2외국어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-004",
+    "name": "독일어권 문화",
+    "group": "제2외국어",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-005",
+    "name": "프랑스어",
+    "group": "제2외국어",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-006",
+    "name": "프랑스어 회화",
+    "group": "제2외국어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-007",
+    "name": "심화 프랑스어",
+    "group": "제2외국어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-008",
+    "name": "프랑스어권 문화",
+    "group": "제2외국어",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-009",
+    "name": "스페인어",
+    "group": "제2외국어",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-010",
+    "name": "스페인어 회화",
+    "group": "제2외국어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-011",
+    "name": "심화 스페인어",
+    "group": "제2외국어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-012",
+    "name": "스페인어권 문화",
+    "group": "제2외국어",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-013",
+    "name": "중국어",
+    "group": "제2외국어",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-014",
+    "name": "중국어 회화",
+    "group": "제2외국어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-015",
+    "name": "심화 중국어",
+    "group": "제2외국어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-016",
+    "name": "중국 문화",
+    "group": "제2외국어",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-017",
+    "name": "일본어",
+    "group": "제2외국어",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-018",
+    "name": "일본어 회화",
+    "group": "제2외국어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-019",
+    "name": "심화 일본어",
+    "group": "제2외국어",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-020",
+    "name": "일본 문화",
+    "group": "제2외국어",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-021",
+    "name": "러시아어",
+    "group": "제2외국어",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-022",
+    "name": "아랍어",
+    "group": "제2외국어",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "second-foreign-language-023",
+    "name": "베트남어",
+    "group": "제2외국어",
+    "type": "일반",
+    "origin": "official"
+  }
+]

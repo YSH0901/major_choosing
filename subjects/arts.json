@@ -1,0 +1,142 @@
+[
+  {
+    "id": "arts-001",
+    "name": "음악",
+    "group": "예술",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "arts-002",
+    "name": "미술",
+    "group": "예술",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "arts-003",
+    "name": "연극",
+    "group": "예술",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "arts-004",
+    "name": "음악 연주와 창작",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-005",
+    "name": "음악 감상과 비평",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-006",
+    "name": "미술 창작",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-007",
+    "name": "미술 감상과 비평",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-008",
+    "name": "음악과 미디어",
+    "group": "예술",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "arts-009",
+    "name": "미술과 매체",
+    "group": "예술",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "arts-010",
+    "name": "음악 이론",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-011",
+    "name": "음악 전공 실기",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-012",
+    "name": "미술 이론",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-013",
+    "name": "미술 전공 실기",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-014",
+    "name": "문예 창작의 이해",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-015",
+    "name": "문장론",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-016",
+    "name": "문학 감상과 비평",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-017",
+    "name": "시 창작",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-018",
+    "name": "소설 창작",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-019",
+    "name": "극 창작",
+    "group": "예술",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "arts-020",
+    "name": "문학과 매체",
+    "group": "예술",
+    "type": "융합",
+    "origin": "official"
+  }
+]

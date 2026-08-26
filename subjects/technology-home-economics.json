@@ -1,0 +1,51 @@
+[
+  {
+    "id": "technology-home-economics-001",
+    "name": "기술·가정",
+    "group": "기술·가정",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "technology-home-economics-002",
+    "name": "로봇과 공학세계",
+    "group": "기술·가정",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "technology-home-economics-003",
+    "name": "생활과학 탐구",
+    "group": "기술·가정",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "technology-home-economics-004",
+    "name": "창의 공학 설계",
+    "group": "기술·가정",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "technology-home-economics-005",
+    "name": "지식 재산 일반",
+    "group": "기술·가정",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "technology-home-economics-006",
+    "name": "생애 설계와 자립",
+    "group": "기술·가정",
+    "type": "융합",
+    "origin": "official"
+  },
+  {
+    "id": "technology-home-economics-007",
+    "name": "아동발달과 부모",
+    "group": "기술·가정",
+    "type": "융합",
+    "origin": "official"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "classical-chinese-001",
+    "name": "한문",
+    "group": "한문",
+    "type": "일반",
+    "origin": "official"
+  },
+  {
+    "id": "classical-chinese-002",
+    "name": "한문 고전 읽기",
+    "group": "한문",
+    "type": "진로",
+    "origin": "official"
+  },
+  {
+    "id": "classical-chinese-003",
+    "name": "언어생활과 한자",
+    "group": "한문",
+    "type": "융합",
+    "origin": "official"
+  }
+]
