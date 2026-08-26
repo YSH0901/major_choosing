@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <meta
+      name="description"
+      content="2022 개정 교육과정 선택과목과 학과 정보를 검색하고 비교하는 탐색기"
+    >
+    <title>학과·선택과목 탐색기</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script defer src="assets/js/catalog.bundle.js"></script>
+    <script defer src="assets/js/catalog.js"></script>
+    <script defer src="assets/js/storage.js"></script>
+    <script defer src="assets/js/state.js"></script>
+    <script defer src="assets/js/view.js"></script>
+    <script defer src="assets/js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#results">검색 결과로 건너뛰기</a>
+
+    <header class="topbar">
+      <div class="topbar__inner">
+        <a class="brand" href="index.html" aria-label="학과 선택과목 탐색기 홈">
+          학과<span>·</span>선택과목 탐색기
+        </a>
+        <p class="dataset-summary" id="datasetSummary" aria-live="polite">데이터 준비 중</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="pageTitle">
+        <p class="eyebrow" id="curriculumLabel">2022 개정 교육과정</p>
+        <h1 id="pageTitle">학과와 선택과목을 한 곳에서 탐색</h1>
+        <p id="pageDescription">
+          과목명·교과·선택 유형을 검색하고, 관심 학과의 추천 과목과 진로 정보를 확인해 보세요.
+        </p>
+
+        <div class="tabs" role="tablist" aria-label="탐색 범위">
+          <button class="tab is-active" id="subjectsTab" type="button" role="tab" data-mode="subjects" aria-selected="true" aria-controls="listView">
+            선택과목
+          </button>
+          <button class="tab" id="departmentsTab" type="button" role="tab" data-mode="departments" aria-selected="false" aria-controls="listView" tabindex="-1">
+            학과
+          </button>
+          <button class="tab" id="favoritesTab" type="button" role="tab" data-mode="favorites" aria-selected="false" aria-controls="listView" tabindex="-1">
+            즐겨찾기
+          </button>
+        </div>
+      </section>
+
+      <section class="explorer" id="listView" role="tabpanel" aria-label="과목 및 학과 탐색">
+        <div class="toolbar" aria-label="검색 및 필터">
+          <div class="search-field">
+            <label class="sr-only" for="searchInput">과목명 또는 학과명 검색</label>
+            <span class="search-field__icon" aria-hidden="true">⌕</span>
+            <input
+              id="searchInput"
+              type="search"
+              placeholder="과목명 또는 학과명 검색"
+              autocomplete="off"
+              role="combobox"
+              aria-autocomplete="list"
+              aria-haspopup="listbox"
+              aria-controls="autocomplete"
+              aria-expanded="false"
+            >
+            <div class="autocomplete" id="autocomplete" role="listbox" hidden></div>
+          </div>
+
+          <div class="filter-field subject-only">
+            <label class="sr-only" for="typeFilter">선택 유형</label>
+            <select id="typeFilter">
+              <option value="all">전체 선택 유형</option>
+            </select>
+          </div>
+
+          <div class="filter-field subject-only">
+            <label class="sr-only" for="groupFilter">교과</label>
+            <select id="groupFilter">
+              <option value="all">전체 교과</option>
+            </select>
+          </div>
+
+          <div class="filter-field department-only department-category-field" hidden>
+            <label class="sr-only" for="departmentCategoryFilter">학과 계열</label>
+            <select id="departmentCategoryFilter">
+              <option value="all">전체 학과 계열</option>
+            </select>
+          </div>
+
+          <button class="button button--ghost" id="resetButton" type="button">초기화</button>
+        </div>
+
+        <div class="content-layout" id="contentLayout">
+          <aside class="sidebar subject-only" aria-labelledby="groupTitle">
+            <h2 id="groupTitle">교과별 보기</h2>
+            <div class="group-buttons" id="groupButtons"></div>
+            <div class="stats" aria-label="데이터 통계">
+              <span class="pill" id="originStats"></span>
+              <span class="pill" id="favoriteStats"></span>
+            </div>
+          </aside>
+
+          <section class="results" id="results" tabindex="-1" aria-labelledby="resultCount">
+            <div class="results__heading">
+              <p class="result-count" id="resultCount" role="status" aria-live="polite" tabindex="-1"></p>
+              <p class="result-hint" id="resultHint"></p>
+            </div>
+            <div class="cards" id="cards"></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="detail-view" id="detailView" aria-live="polite" hidden>
+        <button class="button button--back" id="backButton" type="button">← 목록으로</button>
+        <div id="detailContent"></div>
+      </section>
+
+      <section class="error-panel" id="errorPanel" role="alert" hidden>
+        <h2>탐색기를 불러오지 못했습니다</h2>
+        <p id="errorMessage"></p>
+        <p>압축을 다시 풀거나 <code>npm run build:data</code>를 실행해 주세요.</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p id="footerText"></p>
+    </footer>
+
+    <noscript>
+      <div class="noscript">이 탐색기를 사용하려면 브라우저에서 JavaScript를 활성화해야 합니다.</div>
+    </noscript>
+  </body>
+</html>

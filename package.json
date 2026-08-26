@@ -1,0 +1,14 @@
+{
+  "name": "major-subject-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "학과·선택과목 탐색기",
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node scripts/build-data.mjs --check-only && node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
